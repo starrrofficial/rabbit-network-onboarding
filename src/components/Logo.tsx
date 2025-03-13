@@ -15,11 +15,21 @@ const Logo: React.FC<LogoProps> = ({ className = '', size = 'md' }) => {
   };
 
   return (
-    <div className={`${sizeClasses[size]} ${className} animate-fade-in`}>
+    <div className={`${sizeClasses[size]} ${className} animate-fade-in relative`}>
+      {/* Neon outline effect */}
+      <div className="absolute inset-0 rounded-full animate-pulse-slow bg-transparent" 
+        style={{
+          boxShadow: '0 0 15px 5px rgba(86, 204, 242, 0.7), 0 0 25px 10px rgba(86, 204, 242, 0.5)',
+          filter: 'blur(2px)',
+          transform: 'scale(1.05)',
+        }}
+      />
+      
+      {/* Image */}
       <img 
         src={rabbitLogo} 
         alt="Rabbit Network Logo" 
-        className="w-full h-full object-contain"
+        className="w-full h-full object-contain relative z-10"
       />
     </div>
   );
