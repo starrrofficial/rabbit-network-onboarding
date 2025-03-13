@@ -1,8 +1,33 @@
 
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="100" cy="100" r="90" stroke="white" stroke-width="4"/>
-  <path d="M60 110C60 90 80 70 100 70C120 70 140 90 140 110C140 130 120 150 100 150" stroke="white" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="70" cy="90" r="10" fill="white"/>
-  <circle cx="130" cy="90" r="10" fill="white"/>
-  <path d="M80 130C80 130 90 140 100 130C110 140 120 130 120 130" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <!-- Ears -->
+  <path d="M56 110C40 80 60 40 80 30C90 26 100 40 110 60C114 68 118 80 118 90" stroke="#0B1A26" stroke-width="8" fill="white"/>
+  <path d="M144 110C160 80 140 40 120 30C110 26 100 40 90 60C86 68 82 80 82 90" stroke="#0B1A26" stroke-width="8" fill="white"/>
+  
+  <!-- Inner ear color -->
+  <path d="M62 100C50 78 62 48 80 38" stroke="#F8A395" stroke-width="14" stroke-linecap="round"/>
+  <path d="M138 100C150 78 138 48 120 38" stroke="#F8A395" stroke-width="14" stroke-linecap="round"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="130" r="50" fill="white" stroke="#0B1A26" stroke-width="8"/>
+  
+  <!-- Eye -->
+  <circle cx="75" cy="120" r="10" fill="#0B1A26"/>
+  <circle cx="72" cy="117" r="3" fill="white"/>
+  
+  <!-- Nose -->
+  <path d="M100 130C105 130 108 125 103 122" fill="#F8A395" stroke="#0B1A26" stroke-width="2"/>
+  
+  <!-- Mouth -->
+  <path d="M90 140C95 145 105 145 110 140" stroke="#0B1A26" stroke-width="3"/>
+  
+  <!-- Whiskers -->
+  <path d="M70 135C60 132 50 133 40 135" stroke="#0B1A26" stroke-width="2"/>
+  <path d="M70 140C60 142 50 146 40 145" stroke="#0B1A26" stroke-width="2"/>
+  <path d="M130 135C140 132 150 133 160 135" stroke="#0B1A26" stroke-width="2"/>
+  <path d="M130 140C140 142 150 146 160 145" stroke="#0B1A26" stroke-width="2"/>
+  
+  <!-- Teeth -->
+  <path d="M97 142L97 148" stroke="#0B1A26" stroke-width="3"/>
+  <path d="M103 142L103 148" stroke="#0B1A26" stroke-width="3"/>
 </svg>
