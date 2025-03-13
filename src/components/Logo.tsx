@@ -1,6 +1,6 @@
 
 import React from 'react';
-import rabbitLogo from '../assets/rabbit-logo-placeholder.svg';
+import rabbitLogo from '../assets/IMG_7713.png';
 
 interface LogoProps {
   className?: string;
@@ -19,7 +19,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', size = 'md' }) => {
       <img 
         src={rabbitLogo} 
         alt="Rabbit Network Logo" 
-        className="w-full h-full"
+        className="w-full h-full object-contain"
       />
     </div>
   );
