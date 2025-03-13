@@ -91,10 +91,19 @@
     @apply border-border;
   }
 
-  body {
+  html, body {
     @apply bg-rabbit-black text-rabbit-light font-sans;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    touch-action: none;
+  }
+  
+  #root {
+    @apply h-full w-full;
   }
 }
 

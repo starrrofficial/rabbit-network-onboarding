@@ -14,7 +14,7 @@ const Index = () => {
   };
 
   return (
-    <div className="relative min-h-screen w-full bg-rabbit-black flex flex-col items-center justify-center p-6 overflow-hidden">
+    <div className="w-full h-full bg-rabbit-black flex flex-col items-center justify-center p-6 overflow-hidden">
       {/* Background gradient effect */}
       <div className="absolute inset-0 bg-gradient-to-b from-rabbit-gray to-rabbit-black opacity-60 z-0"></div>
       
